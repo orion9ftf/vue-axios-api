@@ -1,18 +1,22 @@
 <template>
   <div class="hello">
-    <!-- <h1>{{ msg }}</h1> -->
+    <!-- <h1>{{ reverseMsg }}</h1> -->
 
   </div>
 </template>
 
 <script>
-import { hello } from './mixins/hello.js'
+// import { hello } from './mixins/hello.js'
 
-export default {
-  name: 'HelloWorld',
-  mixins: (hello)
-}
-
+// export default {
+//   name: 'HelloWorld',
+//   mixins: [hello],
+//   computed: {
+//     reverseMsg () {
+//         return this.msg.split('').reverse().join()
+//     }
+//   }
+// }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
